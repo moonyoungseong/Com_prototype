@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 public class red_control : MonoBehaviour
 {
     public List<GameObject> list = new List<GameObject>();
+    public GameObject Title;
     public GameObject finishbtn;
+    public GameObject result;
 
     void Start()
     {
@@ -34,11 +36,23 @@ public class red_control : MonoBehaviour
     {
         list[2].SetActive(false);
         finishbtn.SetActive(true);
+        Title.SetActive(false);
     }
 
     public void Finish()
     {
-        //SceneManager.LoadScene("testResult");
+        finishbtn.SetActive(false);
+        result.SetActive(true);
+    }
+
+    public void ScoreCheck()
+    {
+        SceneManager.LoadScene("testanswer");
+    }
+
+    public void Gohome()
+    {
+        SceneManager.LoadScene("testSelect");
     }
 }
 
