@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Transform;
+//using UnityEngine.Transform;
 
 public class scale : MonoBehaviour
-{
+{/*
     public List<GameObject> testimg = new List<GameObject>();
     public List<Transform> trans = new List<Transform>();
     public Slider Figure;
@@ -21,5 +21,5 @@ public class scale : MonoBehaviour
         sizex = testimg[0].trans.localScale.x + Figure.value;
         sizey = testimg[0].trans.localScale.y + Figure.value;
         transform.localScale += new Vector3(sizex, sizey,0);
-    }
+    }*/
 }
