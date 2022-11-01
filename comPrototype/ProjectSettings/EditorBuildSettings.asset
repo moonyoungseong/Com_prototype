@@ -14,9 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/testProgress.unity
     guid: 9746aae932449cb4f9ca6cda82ed88c7
-  - enabled: 1
-    path: Assets/Scenes/testResult.unity
-    guid: 941194e503c6ac7488a11def352b0bc2
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/testanswer.unity
     guid: 53901e39658a9d847b12c73bc66b9f30
